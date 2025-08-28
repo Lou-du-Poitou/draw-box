@@ -22,6 +22,11 @@ canvas {
   cursor: pointer;
 }
 
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #colors {
   height: 21px;
   width: 54.5px;
@@ -115,4 +120,5 @@ button:active {
 /*
     => Made by V / Lou du Poitou, (c) 2025
     => https://loudupoitou.dns-dynamic.net
+
 */
