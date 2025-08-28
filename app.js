@@ -40,6 +40,13 @@ canvas.addEventListener("mousemove", (event) => {
 canvas.addEventListener("mousedown", () => (isDrawing = true));
 canvas.addEventListener("mouseup", () => (isDrawing = false));
 
+canvas.addEventListener("touchmove", (event) => {
+    const r = canvas.getBoundingClientRect();
+    draw(event.touches[0].pageX - r.left, event.touches[0].pageY - r.top);
+});
+canvas.addEventListener("touchstart", () => (isDrawing = true));
+canvas.addEventListener("touchend", () => (isDrawing = false));
+
 document
     .querySelector("#download")
     .addEventListener("click", (event) => {
@@ -80,4 +87,5 @@ size.addEventListener("input", (e) => {
 /*
     => Made by V / Lou du Poitou, (c) 2025
     => https://loudupoitou.dns-dynamic.net
+
 */
