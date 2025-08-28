@@ -1,0 +1,118 @@
+/*
+$$$$$$$\                                   
+$$  __$$\                                  
+$$ |  $$ | $$$$$$\  $$$$$$\  $$\  $$\  $$\ 
+$$ |  $$ |$$  __$$\ \____$$\ $$ | $$ | $$ |
+$$ |  $$ |$$ |  \__|$$$$$$$ |$$ | $$ | $$ |
+$$ |  $$ |$$ |     $$  __$$ |$$ | $$ | $$ |
+$$$$$$$  |$$ |     \$$$$$$$ |\$$$$$\$$$$  |
+\_______/ \__|      \_______| \_____\____/ 
+
+    => Made by V / Lou du Poitou, (c) 2025
+    => http://loudupoitou.dns-dynamic.net
+*/
+html {
+  font-family: sans-serif;
+  user-select: none;
+}
+  
+canvas {
+  background: #fff;
+  border: 1.5px dashed #00ff00;
+  cursor: pointer;
+}
+
+#colors {
+  height: 21px;
+  width: 54.5px;
+  border: 1.5px solid black;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: black;
+}
+
+#colors:hover {
+  border-color: #009700;
+}
+
+#colors:active {
+  background-color: #d7d7d7;
+}
+
+#tools {
+  height: 21px;
+  width: 67px;
+  border: 1.5px solid black;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: black;
+  font-style: italic;
+}
+
+#tools:hover {
+  border-color: #009700;
+}
+
+#tools:active {
+  background-color: #d7d7d7;
+}
+  
+button {
+  height: 21px;
+  width: 54.5px;
+  border: 1.5px solid black;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: black;
+  font-style: italic;
+}
+  
+button:hover {
+  border-color: #009700;
+}
+  
+button:active {
+  background-color: #d7d7d7;
+}
+
+#size {
+  width: 275px;
+  margin-top: 5px;
+}
+
+#show-size {
+  display: inline-block;
+  font-style: italic;
+  font-weight: bold;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#sketch {
+  padding: 5px;
+  border: 2px solid #000000;
+  display: inline-block;
+  box-shadow: 0px 0px 3px #777777;
+  border-radius: 3px;
+}
+
+#download {
+  cursor: pointer;
+  margin: 0px 0px 0px 0px;
+  text-transform: uppercase;
+  color: #009700;
+  text-decoration: underline;
+}
+
+#download:hover {
+  color: #ff0000;
+}
+
+#file {
+  width: 300px;
+}
+/*
+    => Made by V / Lou du Poitou, (c) 2025
+    => https://loudupoitou.dns-dynamic.net
+*/

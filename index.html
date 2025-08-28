@@ -1,0 +1,52 @@
+<!--
+$$$$$$$\                                   
+$$  __$$\                                  
+$$ |  $$ | $$$$$$\  $$$$$$\  $$\  $$\  $$\ 
+$$ |  $$ |$$  __$$\ \____$$\ $$ | $$ | $$ |
+$$ |  $$ |$$ |  \__|$$$$$$$ |$$ | $$ | $$ |
+$$ |  $$ |$$ |     $$  __$$ |$$ | $$ | $$ |
+$$$$$$$  |$$ |     \$$$$$$$ |\$$$$$\$$$$  |
+\_______/ \__|      \_______| \_____\____/ 
+
+    => Made by V / Lou du Poitou, (c) 2025
+    => http://loudupoitou.dns-dynamic.net
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw</title>
+    <link rel="icon" type="image/png" href="./icons/draw.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./icons/draw.ico">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <center>
+    <div id="sketch">
+        <center>
+            <a href="" download="sketch.png" id="download">Télécharger</a>
+        </center>
+        <br/>
+        <canvas width="300" height="300" id="canvas"></canvas>
+        <br/>
+        <input type="color" id="colors" title="colors" value="#00ff00" />
+        <button type="button" id="background" title="background">fond</button>
+        <button type="button" id="clear" title="clear">effacer</button>
+        <button type="button" id="fill" title="fill">remplir</button>
+        <select type="button" id="tools" title="tools">
+            <option value="brush">crayon</option>
+            <option value="eraser">gomme</option>
+        </select>
+        <br/>
+        <input type="range" id="size" title="size" min="0" max="30" value="8" />
+        <span id="show-size">8</span>
+    </div>
+    </center>
+    <script src="./app.js"></script>
+</body>
+</html>
+<!--
+    => Made by V / Lou du Poitou, (c) 2025
+    => https://loudupoitou.dns-dynamic.net
+-->
