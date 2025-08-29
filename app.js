@@ -26,7 +26,7 @@ function draw(x, y) {
     } else {
         c.save();
         c.beginPath();
-        c.roundRect(x-brushSize, y-brushSize, brushSize*2, brushSize*2, 50, false, true);
+        c.roundRect(x-brushSize, y-brushSize, brushSize*2, brushSize*2, 50);
         c.clip();
         c.clearRect(x-brushSize, y-brushSize, brushSize*2, brushSize*2);
         c.restore();
@@ -89,4 +89,5 @@ size.addEventListener("input", (e) => {
     => https://loudupoitou.dns-dynamic.net
 
 */
+
 
