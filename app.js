@@ -89,5 +89,3 @@ size.addEventListener("input", (e) => {
     => https://loudupoitou.dns-dynamic.net
 
 */
-
-
